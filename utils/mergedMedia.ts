@@ -75,8 +75,6 @@
 // };
 
 
-
-// utils/mergeMedia.ts
 export const mergeAudioVideoFiles = (videoFile: File, audioFile: File): Promise<Blob> => {
     return new Promise((resolve, reject) => {
         const videoElement = document.createElement('video');
